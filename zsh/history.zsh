@@ -1,0 +1,4 @@
+HISTFILE=~/.zshhistory
+HISTSIZE="100000"
+SAVEHIST="100000"
+
