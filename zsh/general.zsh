@@ -33,5 +33,8 @@ setopt histignorespace      # remove command lines from the history list when
                             # the first character on the line is a space
 setopt nobeep               # avoid "beep"ing
 setopt pushd_ignore_dups    # don't push the same dir twice.
+setopt inc_append_history   # Add commands to history as they are typed, don't wait until exit time
+setopt hist_reduce_blanks   # Trim blanks
+
 
 unsetopt BG_NICE
