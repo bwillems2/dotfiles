@@ -17,6 +17,13 @@ if [[ $? -eq 0 ]]; then
 	alias la='exa --group-directories-first -la'
 fi
 
+# If bat is installed, use that instead of cat
+# https://github.com/sharkdp/bat
+which bat 2>&1 >/dev/null
+if [ $? -eq 0 ]; then
+	alias cat='bat'
+fi
+
 # zmv is awesome.  You can do "mmv *.cc *.cpp" to rename all .cc files to .cpp.
 # Type "zmv" for more info.
 autoload -U zmv
