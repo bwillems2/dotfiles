@@ -18,6 +18,9 @@ export LESS='-XFRW'
 # add missing sbin path
 export PATH="/usr/local/sbin:$PATH"
 
+# git-grab setup https://github.com/wezm/git-grab
+export GRAB_HOME="$HOME/Developer"
+
 # check for home bin dir, if exists add it
 if [ -d "$HOME/bin" ] ; then
   export PATH="$HOME/bin:$PATH"
@@ -28,6 +31,11 @@ if [ -d "$HOME/go" ] ; then
   export GOPATH=$HOME/go
   export GOBIN=$HOME/go/bin
   export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+fi
+
+# rust / cargo
+if [ -d "$HOME/.cargo/bin" ] ; then
+  export PATH="$PATH:$HOME/.cargo/bin"
 fi
 
 # dotfiles stuff
