@@ -8,6 +8,8 @@ typeset -U FPATH
 
 HOSTNAME=$(hostname -s)
 
+export TERM=screen-256color
+
 # Set some sane LESS defaults
 # -X Disable sending termcap initialization / deinit strings to terminal. Stops clearing on exit
 # -F Quit if one screen
