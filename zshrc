@@ -79,7 +79,7 @@ DISABLE_AUTO_TITLE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git dirhistory colored-man-pages history-substring-search)
+plugins=(git dirhistory colored-man-pages history-substring-search ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
