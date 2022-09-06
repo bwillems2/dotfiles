@@ -3,6 +3,9 @@ alias cls='clear'
 alias md='mkdir -v -p'
 alias x='exit'
 
+# Add dates to the history
+alias history='history -i'
+
 # Stolen from Wez :)
 
 which exa 2>&1 >/dev/null
