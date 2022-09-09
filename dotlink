@@ -39,3 +39,4 @@ zsh/colours.zsh,.oh-my-zsh/custom/colours.zsh
 zsh/general.zsh,.oh-my-zsh/custom/general.zsh
 zsh/history.zsh,.oh-my-zsh/custom/history.zsh
 p10k.zsh,.p10k.zsh
+config/bat,.config/bat/config
