@@ -4,7 +4,7 @@ alias md='mkdir -v -p'
 alias x='exit'
 
 # Add dates to the history
-alias history='history -i'
+alias history='history -i 1'
 
 # Stolen from Wez :)
 
