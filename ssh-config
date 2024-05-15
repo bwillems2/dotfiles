@@ -1,0 +1,8 @@
+# ssh-config, common settings
+
+ServerAliveInterval 120
+ControlMaster auto
+ForwardAgent yes
+
+Include private_config
+

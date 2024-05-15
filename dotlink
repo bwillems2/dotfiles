@@ -40,3 +40,7 @@ zsh/general.zsh,.oh-my-zsh/custom/general.zsh
 zsh/history.zsh,.oh-my-zsh/custom/history.zsh
 p10k.zsh,.p10k.zsh
 config/bat,.config/bat/config
+git-ignore,.config/git/ignore
+private/gitconfig,.gitconfig
+ssh-config,.ssh/config
+private/ssh-private-config,.ssh/private_config
