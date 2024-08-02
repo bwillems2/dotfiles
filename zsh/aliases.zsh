@@ -8,16 +8,15 @@ alias history='history -i 1'
 
 # Stolen from Wez :)
 
-which exa 2>&1 >/dev/null
+which eza 2>&1 >/dev/null
 if [[ $? -eq 0 ]]; then
-	# Override default oh-my-zsh directories aliases with exa ones
-	# https://the.exa.website/
+	# Override default oh-my-zsh directories aliases with eza ones
 	unalias ls
 	unalias lsa
-	alias l='exa --group-directories-first'
-	alias ls='exa --group-directories-first'
-	alias ll='exa --group-directories-first -l'
-	alias la='exa --group-directories-first -la'
+	alias l='eza --group-directories-first'
+	alias ls='eza --group-directories-first'
+	alias ll='eza --group-directories-first -l'
+	alias la='eza --group-directories-first -la'
 fi
 
 # If bat is installed, use that instead of cat
@@ -74,9 +73,4 @@ unsetenv() {
 	else
 		unset $1
 	fi
-}
-
-ssh() {
-	command ssh "$@"
-	echo -ne "\ekdutch\e\\"
 }
